@@ -1,0 +1,171 @@
+/* Barra superior */
+#main-header {
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	background: #01DF3A;
+	color: #01DF3A;
+	height: 50px;
+
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+	#main-header a {
+		color: white;
+	}
+ 
+.logo {
+	margin-left: 10px;
+	float: left;
+}
+
+#main-header nav {
+	float: right;
+}
+	#main-header nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		#main-header nav ul li {
+			display: inline-block;
+			line-height: 50px;
+		}
+			
+		#main-header nav ul li a {
+			color: #000;
+			display: block;
+			padding: 0 10px;
+			text-decoration: none;
+		}
+			
+		#main-header nav ul li a:hover {
+			background: #00FF40;
+		}
+
+/* Buscador */
+
+#input-search{
+	position: absolute;
+	margin-top: 5px;
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+    margin-left: 220px;
+}
+
+.content-search{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    display: none;
+}
+
+.content-table{
+	color: #000;
+    width: 500px;
+    max-height: 200px;
+    height: auto;
+    background:  rgba(135,234,82,0.8);
+    margin-left: 355px;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td a{
+	color: #000000;
+	font-family: Arial;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tbody tr td a:hover{
+    background: rgba(148,167,145,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+
+
+/* Seccion */
+
+#barra {
+	margin-top: 80px;
+	width: 1250px;
+	height: 50px;
+	background-color: #00FF40;
+	border-radius: 35px 35px 35px 35px;
+}
+#barra1 {
+	border-radius: 35px 35px 35px 35px;
+	margin-top: -50px;
+	width: 150px;
+	height: 1250px;
+	background-color: #00FF40;
+}
+.perfil-id{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin-top: -1230px;
+	position: absolute;
+}
+.perfil-id h5 {
+	text-align: center;
+	font-family: arial;
+	font-size: 16px;
+	color: #000000;
+}
+.perfil-id img {
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	border-radius: 200px 200px 200px 200px;
+	margin-left: 35px;
+}
+#barra div {
+	margin-left: 160px;
+	margin-top: 15px;
+	position: absolute;
+	width: auto;
+	height: auto;
+}
+#barra div a {
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 18px;
+	margin: 15px;
+	width: auto;
+	height: auto;
+}
+
+.contenido {
+	font-family: Arial;
+	font-size: 11px;
+	padding-left: 180px;
+	width: 100%;
+	max-width: 1000px;
+	margin-top: -1180px;
+}
+.contenido table tr td table tr td a{
+	text-align: center;
+	width: 100%
+	height: 100%;
+}
+
+.contenido table tr td:hover{
+	background: rgba(148,167,145,0.3);
+}
